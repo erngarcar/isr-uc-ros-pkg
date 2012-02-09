@@ -1,0 +1,17 @@
+<package>
+  <description brief="sensornet">
+
+     This package contains a node for connecting to the LSE SensorNet, a sensor network for monitoring odor and wind environmental data during odor search experiments.
+
+  </description>
+  <author>Gonçalo Cabrita and Pedro Sousa</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/sensornet</url>
+  <depend package="roscpp"/>
+  <depend package="cereal_port"/>
+  <depend package="lse_sensor_msgs"/>
+
+</package>
+
+

@@ -1,0 +1,21 @@
+<package>
+  <description brief="ardusim">
+
+     Ardusim (Arduino Sensor Interface Module) is a library for interfacing a wide range of sensors with ROS over the Arduino microcontroller.
+
+  </description>
+  <author>Gonçalo Cabrita and Pedro Sousa</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/ardusim</url>
+  <export>
+    <cpp cflags="-I${prefix}/include" lflags="-L${prefix}/lib -Wl,-rpath,${prefix}/lib -lardusim"/>
+  </export>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="cereal_port"/>
+  <depend package="lse_sensor_msgs"/>
+
+</package>
+
+

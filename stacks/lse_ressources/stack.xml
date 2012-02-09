@@ -1,0 +1,12 @@
+<stack>
+  <description brief="lse_ressources">
+  
+  	This stack holds handy ressources for other stacks to find. Currently only has maps of ISR.
+  	
+  </description>
+  <author>Gonçalo Cabrita and Pedro Sousa</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/lse_ressources</url>
+
+</stack>

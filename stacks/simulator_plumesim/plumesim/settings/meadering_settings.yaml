@@ -1,0 +1,23 @@
+plumesim:
+  frequency: 1
+  color:
+    r: 0.0
+    g: 1.0
+    b: 0.0
+    a: 1.0
+  type: meadering
+  releasepoint:
+    x: 31.1
+    y: 21.8
+    z: 0.0
+  arena:
+    start:
+      x: 28.0
+      y: 20.0
+    end:
+      x: 42.5
+      y: 22.7
+  number_of_points: 1000
+  release_rate: 10
+  dispersion_coeficient: 0.006
+  radius: 0.1
